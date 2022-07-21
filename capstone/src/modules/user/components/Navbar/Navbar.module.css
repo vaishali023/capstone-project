@@ -1,0 +1,41 @@
+.container {
+  composes: container from '../../../../styles/layout.module.css';
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 74px;
+  padding: 16px 37px;
+}
+
+.logo {
+  color: #fff;
+  font-size: 3rem;
+}
+
+.menu {
+  display: flex;
+  gap: 16px;
+  list-style: none;
+  font-size: 1.6rem;
+  color: #fff;
+}
+
+.menu li {
+  padding: 0 14px;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.social {
+  display: flex;
+  gap: 12px;
+}
+
+.social svg {
+  height: 24px;
+  width: 24px;
+  color: #fff;
+}

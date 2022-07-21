@@ -1,0 +1,13 @@
+.wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-image: url('https://anywhereweroam.com/wp-content/uploads/2022/02/anywhere_we_roam_road.jpg');
+  z-index: -99999;
+}
