@@ -1,12 +1,18 @@
 import React from 'react';
-import Navbar from '../../components/Navbar/Navbar';
+
+import Layout from '../../components/Layout/Layout';
+import EWV from './components/EWV/EWV';
 import Hero from './components/Hero/Hero';
+import LatestBlog from './components/LatestBlog/LatestBlog';
+import PopularPlaces from './components/PopularPlaces/PopularPlaces';
 
 export default function HomePageView() {
   return (
-    <>
-      <Hero />
-      <Navbar />
-    </>
+    <Layout>
+      <Hero img="/img/sunset.jpg" />
+      <EWV />
+      <PopularPlaces />
+      <LatestBlog />
+    </Layout>
   );
 }

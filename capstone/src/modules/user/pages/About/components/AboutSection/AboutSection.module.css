@@ -1,0 +1,29 @@
+.container {
+  padding: 14rem 1.6rem;
+  color: #333;
+}
+
+.wrapper {
+  composes: container from '../../../../../../styles/layout.module.css';
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.aboutWrapper {
+  display: flex;
+  gap: 4rem;
+}
+
+.aboutText {
+  font-size: 1.6rem;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  align-items: center;
+}
+
+.aboutText h1 {
+  color: rgb(108, 106, 106);
+  letter-spacing: 1.2px;
+}

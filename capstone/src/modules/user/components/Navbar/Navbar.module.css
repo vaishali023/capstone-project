@@ -1,15 +1,35 @@
 .container {
+  position: fixed;
+  right: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 74px;
+  padding: 16px 37px;
+  color: #fff;
+  transition: color 0.2s ease-out;
+  z-index: 99999999999;
+}
+
+.wrapper {
   composes: container from '../../../../styles/layout.module.css';
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  min-height: 74px;
-  padding: 16px 37px;
+}
+
+.container.active {
+  color: #000;
+  -webkit-box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.38);
+  -moz-box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.38);
+  box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.38);
+  background: #fff;
+  transition: all 0.2s ease-in;
 }
 
 .logo {
-  color: #fff;
   font-size: 3rem;
 }
 
@@ -18,7 +38,6 @@
   gap: 16px;
   list-style: none;
   font-size: 1.6rem;
-  color: #fff;
 }
 
 .menu li {
@@ -29,6 +48,11 @@
   cursor: pointer;
 }
 
+.menu li a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .social {
   display: flex;
   gap: 12px;
@@ -37,5 +61,4 @@
 .social svg {
   height: 24px;
   width: 24px;
-  color: #fff;
 }

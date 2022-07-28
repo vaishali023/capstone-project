@@ -1,0 +1,27 @@
+.container {
+  position: relative;
+  display: flex;
+  max-width: 243px;
+  height: 400px;
+  overflow: hidden;
+  border-radius: 8px;
+  color: whitesmoke;
+}
+
+.container img {
+  object-fit: cover;
+  filter: brightness(0.7);
+  max-width: 100%;
+}
+
+.container .cityName {
+  position: absolute;
+  bottom: 1.6rem;
+  left: 1.6rem;
+}
+
+.container .cityName h2 {
+  font-size: 2rem;
+  font-weight: 500;
+  letter-spacing: 2px;
+}

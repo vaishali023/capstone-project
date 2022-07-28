@@ -1,0 +1,47 @@
+.container {
+  padding: 1.6rem;
+  padding-bottom: 6.4rem;
+  background-color: #2d3748;
+  color: whitesmoke;
+}
+
+.wrapper {
+  composes: container from '../../../../styles/layout.module.css';
+  display: flex;
+  justify-content: space-between;
+}
+
+.brand {
+  max-width: 33.6rem;
+}
+
+.brand .brandDescription {
+  font-size: 14px;
+  letter-spacing: 1px;
+  margin-top: 1rem;
+}
+
+.logo {
+  font-size: 3rem;
+}
+
+.socialTitle {
+  font-size: 3rem;
+  text-transform: capitalize;
+}
+
+.social {
+  display: flex;
+  gap: 2rem;
+  margin: 1rem 0;
+}
+
+.social svg {
+  height: 24px;
+  width: 24px;
+}
+
+.copyRights {
+  margin-top: 2rem;
+  font-size: 1.6rem;
+}
