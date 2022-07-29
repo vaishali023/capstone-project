@@ -34,7 +34,7 @@ export default function Navbar() {
       }
     >
       <div className={styles.wrapper}>
-        <div className={styles.logo}>LOGO</div>
+        <div className={styles.logo}>VAGARY</div>
         <div className={styles.menuContainer}>
           <ul className={styles.menu}>
             <li>
@@ -47,7 +47,7 @@ export default function Navbar() {
               <Link to='/about'>about</Link>
             </li>
             <li>
-              <Link to='/book'>book</Link>
+              <Link to='/booking'>booking</Link>
             </li>
           </ul>
         </div>

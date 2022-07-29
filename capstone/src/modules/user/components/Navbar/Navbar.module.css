@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&family=Bigelow+Rules&family=Lato:wght@300&family=Maven+Pro&family=Open+Sans:ital,wght@0,300;1,400&family=Poppins:wght@200;300&family=Roboto+Condensed:wght@300&family=Roboto:wght@300&display=swap');
+
 .container {
   position: fixed;
   right: 0;
@@ -31,7 +33,12 @@
 
 .logo {
   font-size: 3rem;
+  font-family: 'Raleway';
 }
+/* .logo img {
+  width: 150px; 
+   height: 150px; 
+} */
 
 .menu {
   display: flex;

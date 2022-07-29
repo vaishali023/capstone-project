@@ -5,6 +5,7 @@ import { AboutPage } from './modules/user/pages/About';
 import { BlogPage } from './modules/user/pages/Blog';
 import { ExplorePage } from './modules/user/pages/Explore';
 import { UserHomePage } from './modules/user/pages/Home';
+import { BookingPage } from './modules/user/pages/Booking';
 
 export default function Router() {
   return (
@@ -14,6 +15,7 @@ export default function Router() {
         <Route exact path='/explore' component={ExplorePage} />
         <Route exact path='/blog' component={BlogPage} />
         <Route exact path='/about' component={AboutPage} />
+        <Route exact path='/booking' component={BookingPage} />
       </Switch>
     </BrowserRouter>
   );

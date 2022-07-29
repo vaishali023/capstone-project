@@ -12,7 +12,7 @@ export default function Footer() {
           <div className={styles.logo}>LOGO</div>
           <div className={styles.brandDescription}>
             The website ends here, but your journey to the remotest destinations
-            in India and Nepal begins with Zostel. Explore with our social
+            in India and Nepal begins now. Explore with our social
             hostels, homestays, and luxury stays on your next holiday.
           </div>
         </div>
