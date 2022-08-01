@@ -21,7 +21,7 @@ export default function LatestBlog() {
       title: 'WHY TRAVEL MAKES YOU AWESOME',
       short_desc:
         'People always ask how travel has changed me. If I look back at who I was before I began traveling and compare that to',
-      img: 'https://media.nomadicmatt.com/beawesome1.jpg',
+      img: 'img/blogcard3.jpg',
     },
   ];
   return (

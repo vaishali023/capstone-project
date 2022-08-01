@@ -30,7 +30,9 @@
   background: #fff;
   transition: all 0.2s ease-in;
 }
-
+.container.active a {
+  color: #000;
+}
 .logo {
   font-size: 3rem;
   font-family: 'Raleway';
@@ -64,6 +66,12 @@
 .social {
   display: flex;
   gap: 12px;
+}
+.social a{
+  color: 	#fff;
+}
+.social a:hover {
+  color: 	#088F8F;
 }
 
 .social svg {

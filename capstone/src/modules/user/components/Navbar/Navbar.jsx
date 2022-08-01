@@ -52,9 +52,9 @@ export default function Navbar() {
           </ul>
         </div>
         <div className={styles.social}>
-          <AiOutlineInstagram />
-          <AiOutlineTwitter />
-          <FaFacebookF />
+        <a href="https://www.instagram.com/"><AiOutlineInstagram /></a>
+          <a href="https://twitter.com/home"><AiOutlineTwitter /></a>
+          <a href="https://www.facebook.com/"><FaFacebookF /></a>
           <AiOutlineSearch />
         </div>
       </div>

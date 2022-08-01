@@ -29,11 +29,16 @@
   font-size: 3rem;
   text-transform: capitalize;
 }
-
+.social a{
+  color: #fff;
+}
 .social {
   display: flex;
   gap: 2rem;
   margin: 1rem 0;
+}
+.social a:hover {
+  color: 	#B6D0E2;
 }
 
 .social svg {

@@ -21,7 +21,7 @@ export default function BlogList() {
       title: 'WHY TRAVEL MAKES YOU AWESOME',
       short_desc:
         'People always ask how travel has changed me. If I look back at who I was before I began traveling and compare that to',
-      img: 'https://media.nomadicmatt.com/beawesome1.jpg',
+      img: 'img/blogcard3.jpg',
     },
     {
       title: 'WHERE TO STAY IN CHICAGO: THE BEST NEIGHBORHOODS FOR YOUR VISIT',
@@ -39,7 +39,7 @@ export default function BlogList() {
       title: 'WHY TRAVEL MAKES YOU AWESOME',
       short_desc:
         'People always ask how travel has changed me. If I look back at who I was before I began traveling and compare that to',
-      img: 'https://media.nomadicmatt.com/beawesome1.jpg',
+      img: 'img/blogcard6.jpg',
     },
   ];
   return (
