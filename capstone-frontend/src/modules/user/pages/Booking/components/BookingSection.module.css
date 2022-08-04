@@ -1,0 +1,69 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 14rem 1.6rem;
+  color: #333;
+}
+.wrapper {
+  composes: container from '../../../../../styles/layout.module.css';
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bookingwrapper{
+    display: flex;
+    gap: 4rem;
+}
+.bookingwrapper img{
+  width: 300px;
+  height: 420px;
+}
+
+.aboutText {
+  font-size: 1.6rem;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  align-items: center;
+}
+.aboutCards {
+  font-size: 1.6rem;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+.explorewrapper button,a{
+ width: 20%;
+ text-align: center;
+}
+
+.explorewrapper {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  background-color: #E3E8F0;
+  padding: 20px 40px 20px 40px;
+}
+.staywrapper {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  background-color: #E3E8F0;
+  padding: 20px 40px 20px 40px;
+}
+
+.staywrapper a {
+  background-color: #23365A;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 14px 10px 14px;
+}
+.explorewrapper button{
+  background-color: #23365A;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 14px 10px 14px;
+}
