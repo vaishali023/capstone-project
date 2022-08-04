@@ -1,0 +1,1 @@
+export const API_URL = 'https://capstone-travel.herokuapp.com/api/v1'
