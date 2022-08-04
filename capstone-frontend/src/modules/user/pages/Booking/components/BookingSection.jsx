@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaQuoteLeft, FaQuoteRight } from 'react-icons/fa';
-import {BrowserRouter as Router, Link} from 'react-router-dom';
+import {BrowserRouter as  Link} from 'react-router-dom';
 
 import styles from './BookingSection.module.css';
 
@@ -35,8 +35,8 @@ export default function BookingSection() {
         </div>
         </div>
         <div className={styles.explorewrapper}>
-        <div className={styles.aboutText}>
-         <h1>1- Where to next?</h1>
+        <div className={styles.aboutCards}>
+         <h1 className='cardsHeadings'>1- Where to next?</h1>
          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
               obcaecati suscipit distinctio autem? Animi aliquid doloribus iure
               atque et vero obcaecati! Eum explicabo delectus earum atque
@@ -48,7 +48,7 @@ export default function BookingSection() {
         </div>
 
         <div className={styles.staywrapper}>
-        <div className={styles.aboutText}>
+        <div className={styles.aboutCards}>
          <h1>2- Hotels</h1>
          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
               obcaecati suscipit distinctio autem? Animi aliquid doloribus iure
@@ -61,8 +61,8 @@ export default function BookingSection() {
         </div>
 
         <div className={styles.staywrapper}>
-        <div className={styles.aboutText}>
-         <h1>3- Accomodation and Activities</h1>
+        <div className={styles.aboutCards}>
+         <h1 >3- Accomodation and Activities</h1>
          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
               obcaecati suscipit distinctio autem? Animi aliquid doloribus iure
               atque et vero obcaecati! Eum explicabo delectus earum atque
@@ -73,6 +73,44 @@ export default function BookingSection() {
         </div>
         </div>
         
+        <div className={styles.staywrapper}>
+        <div className={styles.aboutCards}>
+         <h1>4- Book your Flights</h1>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
+              obcaecati suscipit distinctio autem? Animi aliquid doloribus iure
+              atque et vero obcaecati! Eum explicabo delectus earum atque
+              molestiae ipsam, cupiditate quos.</p>
+         
+              <a href="https://www.google.com/travel/flights" target="_blank" rel="noreferrer">
+          <button>Flights</button></a>
+        </div>
+        </div>
+
+        <div className={styles.staywrapper}>
+        <div className={styles.aboutCards}>
+         <h1>5- Car Rentals</h1>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
+              obcaecati suscipit distinctio autem? Animi aliquid doloribus iure
+              atque et vero obcaecati! Eum explicabo delectus earum atque
+              molestiae ipsam, cupiditate quos.</p>
+         
+              <a href="https://turo.com/" target="_blank" rel="noreferrer">
+          <button>Book your Car</button></a>
+        </div>
+        </div>
+
+        <div className={styles.staywrapper}>
+        <div className={styles.aboutCards}>
+         <h1>6- Activities</h1>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
+              obcaecati suscipit distinctio autem? Animi aliquid doloribus iure
+              atque et vero obcaecati! Eum explicabo delectus earum atque
+              molestiae ipsam, cupiditate quos.</p>
+         
+              <a href="https://www.getyourguide.com/" target="_blank" rel="noreferrer">
+          <button>Activities</button></a>
+        </div>
+        </div>
     </div>
   </div>
 

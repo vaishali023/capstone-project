@@ -34,7 +34,7 @@ export default function Navbar() {
       }
     >
       <div className={styles.wrapper}>
-        <div className={styles.logo}>LOGO</div>
+        <div className={styles.logo}>VAGARY</div>
         <div className={styles.menuContainer}>
           <ul className={styles.menu}>
             <li>

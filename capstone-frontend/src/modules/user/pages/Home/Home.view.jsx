@@ -9,7 +9,7 @@ import PopularPlaces from './components/PopularPlaces/PopularPlaces';
 export default function HomePageView() {
   return (
     <Layout>
-      <Hero img="/img/sunset.jpg" />
+      <Hero img="/img/heroImage.jpg" />
       <EWV />
       <PopularPlaces />
       <LatestBlog />
