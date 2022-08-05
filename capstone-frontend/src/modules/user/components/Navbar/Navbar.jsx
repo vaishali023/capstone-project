@@ -26,7 +26,7 @@ export default function Navbar() {
       setActive(false);
     }
   }
-
+  
   return (
     <div
       className={
@@ -34,7 +34,7 @@ export default function Navbar() {
       }
     >
       <div className={styles.wrapper}>
-        <div className={styles.logo}>VAGARY</div>
+        <div className={styles.logo}><img src="/img/Untitled-LOGO.png" /></div>
         <div className={styles.menuContainer}>
           <ul className={styles.menu}>
             <li>
