@@ -12,14 +12,12 @@ export default function BookingSection() {
     <img src='img/girlatPool.jpg' alt='company' />
           <div className={styles.aboutText}>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
-              obcaecati suscipit distinctio autem? Animi aliquid doloribus iure
-              atque et vero obcaecati! Eum explicabo delectus earum atque
-              molestiae ipsam, cupiditate quos. Lorem, ipsum dolor sit amet
-              consectetur adipisicing elit. Praesentium sapiente voluptatem a
-              quae quidem officia nobis id tempore quaerat ex, nesciunt amet
-              consequuntur obcaecati totam. Dolorum officia natus veritatis
-              assumenda.
+            Experiences are the essence of life. 
+            Traveling is a special experience because it allows you to disconnect from the stresses of everyday life. 
+            It enables us to put our domestic issues, irritations, and anxieties behind us.
+             We have many life experiences along the road. We delve into new locales, communities, gastronomies, customs, and modes of living. 
+             These are experiences we could never have at home. 
+            Travel is a special and priceless life experience because of this. So, Explore the World with us. Make beautiful memories, click pictures and enjoy your time to the fullest.
             </p>
             <h1>
               <FaQuoteLeft />
@@ -27,20 +25,19 @@ export default function BookingSection() {
               <FaQuoteRight />
             </h1>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
-              obcaecati suscipit distinctio autem? Animi aliquid doloribus iure
-              atque et vero obcaecati! Eum explicabo delectus earum atque
-              molestiae ipsam, cupiditate quos.
+            This page is both a checklist of things you need to book and a resource of our favourite travel providers.
             </p>
         </div>
         </div>
         <div className={styles.staywrapper}>
         <div className={styles.aboutCards}>
          <h1 className='cardsHeadings'>1- Where to next?</h1>
-         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
-              obcaecati suscipit distinctio autem? Animi aliquid doloribus iure
-              atque et vero obcaecati! Eum explicabo delectus earum atque
-              molestiae ipsam, cupiditate quos.</p>
+         <p>One of the most thrilling parts of travelling is figuring out where you're heading next. 
+         What kind of novel experiences are you seeking? Something outside and sporty, or something to push your comfort zones? 
+         Maybe you're seeking memorable cultural encounters?
+        Start with our explore page for some inspiration.
+         Here, we compile all of our articles according to the kind of travel experience you might be seeking, such as hiking vacations, traditional road trips, city breaks, or wilderness experiences focused on wildlife. 
+       </p>
               <Link to="/explore">
           <button>Explore</button>
         </Link>
@@ -62,11 +59,8 @@ export default function BookingSection() {
 
         <div className={styles.staywrapper}>
         <div className={styles.aboutCards}>
-         <h1 >3- Accomodation and Activities</h1>
-         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
-              obcaecati suscipit distinctio autem? Animi aliquid doloribus iure
-              atque et vero obcaecati! Eum explicabo delectus earum atque
-              molestiae ipsam, cupiditate quos.</p>
+         <h1 >3- Accomodation</h1>
+         <p> Airbnb, a service that lets property owners rent out their spaces to travelers looking for a place to stay.Here, you may discover unique homes, beach houses, holiday rentals, and experiences all over the world.</p>
          
               <a href="https://www.airbnb.ca/" target="_blank" rel="noreferrer">
           <button>airbnb</button></a>
