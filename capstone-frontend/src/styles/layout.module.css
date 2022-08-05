@@ -1,4 +1,6 @@
-
+*{
+  overflow-x: hidden;
+}
 .container {
   width: 100%;
   max-width: 1200px;

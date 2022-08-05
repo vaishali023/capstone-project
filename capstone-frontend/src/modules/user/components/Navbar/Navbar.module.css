@@ -28,7 +28,9 @@
   background: #fff;
   transition: all 0.2s ease-in;
 }
-
+.container.active img{
+  content: url("https://res.cloudinary.com/dkhvcn7i6/image/upload/v1659734973/Logo/Untitled-LOGO_hzxwrn.png");
+}
 .container.active a{
   color: black;
 }
