@@ -9,7 +9,7 @@ const WhereClause = require('../utils/whereClause');
 exports.getAllBlogs = BigPromise(async (req, res, next) => {
   const resultPerPage = 6;
 
-  let blogs = new WhereClause(Blog.find(), req.query).search().filter();
+  let blogs = new WhereClause(Blog.find().populate('author'), req.query).search().filter();
 
   blogs.pager(resultPerPage);
   blogs = await blogs.base;

@@ -12,6 +12,10 @@ const blogSchema = new mongoose.Schema({
     required: [true, 'Please provide blog slug'],
     trim: true,
   },
+  short_desc: {
+    type: String,
+    required: [true, 'Please provide blog short description'],
+  },
   body: {
     type: String,
     required: [true, 'Please provide blog description'],
