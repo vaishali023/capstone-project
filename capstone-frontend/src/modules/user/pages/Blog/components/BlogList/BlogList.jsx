@@ -47,8 +47,8 @@ export default function BlogList({data}) {
       <div className={styles.wrapper}>
         <h1>Blog</h1>
         <div className={styles.blogList}>
-          {data.map(({ title, body, image }) => (
-            <BlogCard title={title} short_desc={body} img={image.secure_url} />
+          {data.map(({ title, short_desc, image, author, _id }) => (
+            <BlogCard id={_id} title={title} short_desc={short_desc} img={image.secure_url} authorName={author.name} />
           ))}
         </div>
         <div className={styles.loadMore}>
