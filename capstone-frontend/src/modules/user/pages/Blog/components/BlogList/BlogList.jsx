@@ -51,9 +51,9 @@ export default function BlogList({data}) {
             <BlogCard id={_id} title={title} short_desc={short_desc} img={image.secure_url} authorName={author.name} />
           ))}
         </div>
-        <div className={styles.loadMore}>
+        {/* <div className={styles.loadMore}>
           <button>Load More</button>
-        </div>
+        </div> */}
       </div>
     </div>
   );
