@@ -14,13 +14,17 @@
   display: flex;
   gap: 4rem;
 }
-
+.aboutWrapper img{
+  width: 100%;
+  height: 500px;
+}
 .aboutText {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   display: flex;
   flex-direction: column;
   gap: 4rem;
   align-items: center;
+  text-align: justify;
 }
 
 .aboutText h1 {

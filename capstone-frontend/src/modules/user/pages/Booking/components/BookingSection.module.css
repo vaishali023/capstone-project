@@ -17,19 +17,20 @@
     gap: 4rem;
 }
 .bookingwrapper img{
-  width: 300px;
+  width: 100%;
   height: 420px;
 }
 
 .aboutText {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   display: flex;
   flex-direction: column;
   gap: 4rem;
   align-items: center;
 }
+
 .aboutCards {
-  font-size: 1.6rem;
+  font-size: 1.9rem;
   display: flex;
   flex-direction: column;
   gap: 4rem;
@@ -77,4 +78,6 @@
 }
 p {
   font-family: 'Mulish', sans-serif;
+  font-weight:400;
+ text-align: justify;
 }

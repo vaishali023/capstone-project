@@ -8,7 +8,7 @@ export default function AboutSection() {
     <div className={styles.container}>
       <div className={styles.wrapper}>
         <div className={styles.aboutWrapper}>
-          <img src='https://via.placeholder.com/400x500.png' alt='company' />
+          <img src='https://res.cloudinary.com/dkhvcn7i6/image/upload/v1659738892/users/aboutUs_yqhcwz.jpg' alt='company' />
           <div className={styles.aboutText}>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum

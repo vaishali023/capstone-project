@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaQuoteLeft, FaQuoteRight } from 'react-icons/fa';
-import {BrowserRouter as  Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 import styles from './BookingSection.module.css';
 
@@ -34,7 +34,7 @@ export default function BookingSection() {
             </p>
         </div>
         </div>
-        <div className={styles.explorewrapper}>
+        <div className={styles.staywrapper}>
         <div className={styles.aboutCards}>
          <h1 className='cardsHeadings'>1- Where to next?</h1>
          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
@@ -50,10 +50,10 @@ export default function BookingSection() {
         <div className={styles.staywrapper}>
         <div className={styles.aboutCards}>
          <h1>2- Hotels</h1>
-         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
-              obcaecati suscipit distinctio autem? Animi aliquid doloribus iure
-              atque et vero obcaecati! Eum explicabo delectus earum atque
-              molestiae ipsam, cupiditate quos.</p>
+         <p>View our selection of featured hotels anywhere.
+           Use the filters to see hotels in a specific area , select a specific theme, brand, or hotel class from basic (1 Star) 
+           to luxury hotels (5 Stars).
+           Enter your travel dates to view the best deals on hotels in specific area - while they last.</p>
          
               <a href="https://www.booking.com/index.html?aid=1649037" target="_blank" rel="noreferrer">
           <button>Booking</button></a>
@@ -77,10 +77,10 @@ export default function BookingSection() {
         <div className={styles.aboutCards}>
          <h1>4- Book your Flights</h1>
          <p>We pledge to help you find cheap flights that won't bust your budget.
-that's why we provide you with a vast selection of affordable plane tickets, including roundtrip and one-way reservations,
-to ensure your travel plans remain within your budget. Take advantage of our lowest rates on airfare and have 
-leftover money to spare on sightseeing.
-We offer a wealth of airlines, airports, and arrival times, making it easy for you to book your trip.</p>
+           that's why we provide you with a vast selection of affordable plane tickets, including roundtrip and one-way reservations,
+           to ensure your travel plans remain within your budget. Take advantage of our lowest rates on airfare and have 
+           leftover money to spare on sightseeing.
+           We offer a wealth of airlines, airports, and arrival times, making it easy for you to book your trip.</p>
          
               <a href="https://www.google.com/travel/flights" target="_blank" rel="noreferrer">
           <button>Flights</button></a>

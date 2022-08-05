@@ -1,6 +1,6 @@
 import React from 'react';
 import draftToHtml from 'draftjs-to-html';
-import { EditorState, convertFromRaw, convertToRaw } from "draft-js";
+import { EditorState, convertFromRaw, convertToRaw } from 'draft-js';
 
 import styles from './BlogBody.module.css';
 
@@ -22,18 +22,27 @@ const DEFAULT_CONTENT = {
 };
 
 export default function BlogBody({ content }) {
-  const [blogData, setBlogData] = React.useState({})
-React.useEffect(() => {
-if(content){
-  const decodedContent = JSON.parse(content);
-  const editorValue = EditorState.createWithContent(convertFromRaw(decodedContent));
-  setBlogData(editorValue)
-}
-},[content])
+  const [blogData, setBlogData] = React.useState(null);
+  
+  React.useEffect(() => {
+    if (content) {
+      const decodedContent = JSON.parse(content);
+      const editorValue = EditorState.createWithContent(
+        convertFromRaw(decodedContent)
+      );
+      setBlogData(editorValue);
+    }
+  }, [content]);
   return (
     <div className={styles.container}>
       <div className={styles.blogBodyWrapper}>
-        <div dangerouslySetInnerHTML={{ __html: draftToHtml(convertToRaw(blogData.getCurrentContent())) }}></div>
+        <div
+          dangerouslySetInnerHTML={{
+            __html: blogData
+              ? draftToHtml(convertToRaw(blogData.getCurrentContent()))
+              : '',
+          }}
+        ></div>
       </div>
     </div>
   );
