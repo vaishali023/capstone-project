@@ -5,6 +5,7 @@ import EWV from './components/EWV/EWV';
 import Hero from './components/Hero/Hero';
 import LatestBlog from './components/LatestBlog/LatestBlog';
 import PopularPlaces from './components/PopularPlaces/PopularPlaces';
+import PhotoGallery from './components/PhotoGallery/PhotoGallery';
 
 export default function HomePageView() {
   return (
@@ -13,6 +14,7 @@ export default function HomePageView() {
       <EWV />
       <PopularPlaces />
       <LatestBlog />
+      <PhotoGallery />
     </Layout>
   );
 }
