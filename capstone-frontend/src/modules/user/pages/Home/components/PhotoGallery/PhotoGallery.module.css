@@ -1,5 +1,6 @@
 .container {
     padding: 14rem 1.6rem;
+    background-color: whitesmoke;
   }
   
   .wrapper {
@@ -8,7 +9,13 @@
     flex-direction: column;
     align-items: center;
   }
-  
+  .containerimg{
+    width: 100%;
+    margin: 2rem auto; 
+  }
+  .headingGrid{
+    font-size: 3rem;
+  }
   .gallery {
     display: grid;
     grid-template-columns: repeat(8, 1fr);
@@ -16,41 +23,129 @@
     grid-gap: 1.5rem; 
   }
   
-  .gallery__img {
+  .galleryimg {
     width: 100%;
     height: 100%;
     object-fit: cover;
     display: block; 
-  }
-  .img-grid-1 {
+    }
+  .imggrid1{
     grid-column-start: 1;
     grid-column-end: 3;
     grid-row-start: 1;
     grid-row-end: 3;
-  
-    /** Alternative Syntax **/
-    /* grid-column: 1 / span 2;  */
-    /* grid-row: 1 / span 2; */
+    position: relative;
+    background: black;
+  }
+  .imggrid1:hover img{
+    opacity: 0.4;
   }
   
-  .img-grid-2 {
+  .imggrid2{
     grid-column-start: 3;
     grid-column-end: 5;
     grid-row-start: 1;
     grid-row-end: 3;
-  
-    /** Alternative Syntax **/
-    /* grid-column: 3 / span 2;  */
-    /* grid-row: 1 / span 2; */
+    position: relative;
+    background:black
+  }
+
+  .imggrid2:hover img{
+    opacity: 0.4;
   }
   
-  .img-grid-3 {
+  .imggrid3 {
     grid-column-start: 5;
     grid-column-end: 9;
     grid-row-start: 1;
     grid-row-end: 6;
+    position: relative;
+    background: black;
+    }
+
+    .imggrid3:hover img{
+      opacity: 0.4;
+    }
+
+  .imggrid4 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 6;
+  position: relative;
+  background: black;
+  }
+
+  .imggrid4:hover img{
+    opacity: 0.4;
+  }
   
-    /** Alternative Syntax **/
-    /* grid-column: 5 / span 4;
-    grid-row: 1 / span 5; */
+  .imggrid5 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 6;
+    grid-row-end: 9;
+    position: relative;
+    background: black;
+  }
+
+  .imggrid5:hover img{
+    opacity: 0.4;
+  }
+  
+  .imggrid6 {
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 6;
+    grid-row-end: 9;
+    position: relative;
+    background: black;
+    }
+
+    .imggrid6:hover img{
+      opacity: 0.4;
+    }
+
+.gridText{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:white;
+    visibility: hidden;
+    font-size: 40px;
+  }
+
+  .imggrid1:hover .gridText{
+    /* opacity: 4; */
+    visibility: visible;
+  }
+
+
+  .imggrid2:hover .gridText{
+    opacity: 4;
+    visibility: visible;
+  }
+
+
+  .imggrid3:hover .gridText{
+    opacity: 4;
+    visibility: visible;
+  }
+
+
+  .imggrid4:hover .gridText{
+    opacity: 4;
+    visibility: visible;
+  }
+
+  .imggrid5:hover .gridText{
+    opacity: 4;
+    visibility: visible;
+  }
+
+
+  .imggrid6:hover .gridText{
+    opacity: 4;
+    visibility: visible;
   }

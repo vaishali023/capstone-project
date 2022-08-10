@@ -34,7 +34,7 @@ export default function Navbar() {
       }
     >
       <div className={styles.wrapper}>
-        <div className={styles.logo}><Link to='/'><img src="https://res.cloudinary.com/dkhvcn7i6/image/upload/v1659734964/Logo/logowhite_yczmpk.png" /></Link></div>
+        <div className={styles.logo}><Link to='/'><img src="https://res.cloudinary.com/dkhvcn7i6/image/upload/v1659734964/Logo/logowhite_yczmpk.png" alt="logo"/></Link></div>
         <div className={styles.menuContainer}>
           <ul className={styles.menu}>
             <li>

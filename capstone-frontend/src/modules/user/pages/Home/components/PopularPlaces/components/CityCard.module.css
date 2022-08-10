@@ -1,8 +1,8 @@
 .container {
   position: relative;
   display: flex;
-  max-width: 243px;
-  height: 400px;
+  max-width: 380px;
+  height: 450px;
   overflow: hidden;
   border-radius: 8px;
   color: whitesmoke;
@@ -12,8 +12,11 @@
   object-fit: cover;
   filter: brightness(0.7);
   max-width: 100%;
+  transition: all .2s ease-in-out; 
 }
-
+.container img:hover{
+  transform: scale(1.1);
+}
 .container .cityName {
   position: absolute;
   bottom: 1.6rem;

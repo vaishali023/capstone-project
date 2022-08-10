@@ -39,7 +39,7 @@ export default function BookingSection() {
          Here, we compile all of our articles according to the kind of travel experience you might be seeking, such as hiking vacations, traditional road trips, city breaks, or wilderness experiences focused on wildlife. 
        </p>
               <Link to="/explore">
-          <button>Explore</button>
+          <button >Explore</button>
         </Link>
         </div>
         </div>

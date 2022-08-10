@@ -5,11 +5,16 @@ export default function PhotoGallery() {
     return (
         <div className={styles.container}>
           <div className={styles.wrapper}>
-            <h1>Photo Gallery</h1>
-            <div className="gallary">
-            <div className="img-grid-1"><img className="gallary_img" src="https://res.cloudinary.com/dkhvcn7i6/image/upload/v1659634998/users/bcvvmtzk29hs9a799cor.jpg" alt=""/></div>
-            <div className="img-grid-2"><img className="gallary_img" src="https://res.cloudinary.com/dkhvcn7i6/image/upload/v1659738892/users/aboutUs_yqhcwz.jpg" alt=""/></div>
-            <div className="img-grid-3"><img className="gallary_img" src="https://res.cloudinary.com/dkhvcn7i6/image/upload/v1659728173/blogs/o9ytk6ydznxpbrzsjwza.jpg" alt=""/></div>
+            <h1 className={styles.headingGrid}>Photo Gallery</h1>
+            <div className={styles.containerimg}>
+            <div className={styles.gallery}>
+            <div className={styles.imggrid1 } ><img className={styles.galleryimg} src="img/gridimg1.jpg" alt=""/><p className={styles.gridText}>Wadi Musa, Ma'an Governorate, Jordan</p></div>
+            <div className={styles.imggrid2}><img className={styles.galleryimg} src="img/gridimg2.jpg" alt=""/><p className={styles.gridText}>Cliffside Village</p></div>
+            <div className={styles.imggrid3}><img className={styles.galleryimg} src="img/gridimg3.jpg" alt=""/><p className={styles.gridText}>Breathtaking seascape with amazing coastal village on cliff</p></div>
+            <div className={styles.imggrid4} ><img className={styles.galleryimg} src="img/gridimg4.jpg" alt=""/><p className={styles.gridText}> Buildings and Canal during Night time</p></div>
+            <div className={styles.imggrid5}><img className={styles.galleryimg} src="img/gridimg5.jpg" alt=""/><p className={styles.gridText}>Riva del Garda, Trentino-Alto Adige, Italy</p></div>
+            <div className={styles.imggrid6}><img className={styles.galleryimg} src="img/gridimg6.jpg" alt=""/><p className={styles.gridText}>Bali, Indonesia</p></div>
+            </div>
             </div>
           </div>
         </div>

@@ -8,7 +8,7 @@ const DEFAULT_IMG =
 export default function CityCard({ name, img = DEFAULT_IMG }) {
   return (
     <div className={styles.container}>
-      <img src={img} alt='logo' />
+      <img src={img} alt='PopularPlaces' />
       <div className={styles.cityName}>
         <h2>{name}</h2>
       </div>

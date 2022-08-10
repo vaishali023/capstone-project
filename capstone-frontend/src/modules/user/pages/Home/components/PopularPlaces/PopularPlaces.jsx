@@ -11,19 +11,19 @@ export default function PopularPlaces() {
         <div className={styles.popularPlacesList}>
           <CityCard
             name='Madrid'
-            img='https://img.cdn.zostel.com/blog_photo/Kalatop_Wildlife_Sanctuary.jpg'
+            img='https://res.cloudinary.com/dkhvcn7i6/image/upload/v1659990774/Popular%20Places/madrid_t8rvut.jpg'
           />
           <CityCard
             name='Milan'
-            img='https://img.cdn.zostel.com/blog_photo/Lonaaa_1.jpg'
+            img='https://res.cloudinary.com/dkhvcn7i6/image/upload/v1659991033/Popular%20Places/milan_mfjlyl.jpg'
           />
           <CityCard
             name='Paris'
-            img='https://img.cdn.zostel.com/zostel/gallery/images/AYGyj3isTgCtwXOe8QPzWA/chamera-20220603112550.jpg?h=400'
+            img='https://res.cloudinary.com/dkhvcn7i6/image/upload/v1659991025/Popular%20Places/paris_wbjynf.jpg'
           />
           <CityCard
             name='Frankfurt'
-            img='https://img.cdn.zostel.com/zostel/gallery/images/0h7EG5blRO60ptcETfeOxw/a-trekking-destination-for-adventure-lovers_bpY4sqa.jpg?h=400'
+            img='https://res.cloudinary.com/dkhvcn7i6/image/upload/v1659991997/Popular%20Places/frankfurt_vbaeew.jpg'
           />
         </div>
       </div>
