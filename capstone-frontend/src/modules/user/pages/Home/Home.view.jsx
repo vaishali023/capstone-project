@@ -7,6 +7,7 @@ import LatestBlog from './components/LatestBlog/LatestBlog';
 import PopularPlaces from './components/PopularPlaces/PopularPlaces';
 import PhotoGallery from './components/PhotoGallery/PhotoGallery';
 
+
 export default function HomePageView() {
 
   const [blogList, setBlogList] = React.useState([]);
@@ -27,7 +28,7 @@ export default function HomePageView() {
 
   return (
     <Layout>
-      <Hero img="/img/heroImage.jpg" />
+      <Hero img="/img/heroImage.jpg" centerText="Homepage" location="Parisian Bridge, Paris, France" />
       <EWV />
       <PopularPlaces />
       <LatestBlog data={blogList}/>

@@ -7,7 +7,7 @@ import BookingSection from './components/BookingSection';
 export default function BookingView() {
   return (
     <Layout>
-      <Hero img="/img/hotelbooking.jpg" />
+      <Hero img="/img/hotelbooking.jpg" centerText="Homepage" location="Place"/>
       <BookingSection />
     </Layout>
   );

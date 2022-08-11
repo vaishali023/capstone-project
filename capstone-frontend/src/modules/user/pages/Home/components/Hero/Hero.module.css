@@ -15,3 +15,28 @@
   z-index: -99999;
   filter: brightness(0.6);
 }
+
+
+.centertext{
+  position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:white;
+    font-size: 40px;
+  
+}
+
+ .locationtext{
+position: absolute;
+  bottom: 8px;
+  right: 16px;
+  transform: translate(-50%, -50%);
+    color:white;
+    font-size: 2rem;
+    visibility: hidden;
+}
+
+.heroWrapper:hover .locationtext{
+  visibility: visible;
+}

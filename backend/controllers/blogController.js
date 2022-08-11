@@ -29,16 +29,16 @@ exports.getAllBlogs = BigPromise(async (req, res, next) => {
 });
 
 exports.getLatestBlogs = BigPromise(async (req, res, next) => {
-  const resultPerPage = 6;
-
-  let blogs = await Blog.find().sort({$natural: -1})
-  .limit(3);
-
+  let blogs = new WhereClause(Blog.find().sort({$natural: -1}).limit(3).populate('author'), req.query).search().filter();
+  
+  blogs = await blogs.base;
+console.log(blogs);
   res.status(200).json({
     success: true,
     blogs,
   });
 });
+
 
 exports.getBlogById = BigPromise(async (req, res, next) => {
   const blog = await Blog.findById(req.params.id);

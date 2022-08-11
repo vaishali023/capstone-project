@@ -23,7 +23,7 @@ export default function BlogView() {
   // }
   return (
     <Layout>
-      <Hero img="/img/train.jpg" />
+      <Hero img="/img/train.jpg" centerText="Homepage" location="Place"/>
       <BlogList  />
     </Layout>
   );

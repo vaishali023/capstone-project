@@ -1,7 +1,8 @@
 .container {
   padding: 1.6rem;
-  padding-bottom: 6.4rem;
-  background-color: #283859;
+  /* padding-bottom: 6.4rem; */
+  /* background-image: url("../../../../assets/wave.svg"); */
+  background-color: #003B73;
   color: whitesmoke;
 }
 
@@ -39,7 +40,7 @@
   color: #fff;
 }
 .social a:hover{
-  color: #5A90F7;
+  color: #1e90ff;
 }
 .social svg {
   height: 24px;

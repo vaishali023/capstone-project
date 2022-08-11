@@ -4,6 +4,8 @@ import { FaFacebookF } from 'react-icons/fa';
 
 import styles from './Footer.module.css';
 
+import {ReactComponent as wave} from "../../../../assets/wave.svg";
+
 export default function Footer() {
   return (
     <div className={styles.container}>
@@ -12,8 +14,7 @@ export default function Footer() {
           <div className={styles.logo}>VAGARY</div>
           <div className={styles.brandDescription}>
             The website ends here, but your journey to the beautiful destinations
-             begins with Vagary. Explore with our social
-            hostels, homestays, and luxury stays on your next holiday.
+             begins with Vagary. Explore with us.
           </div>
         </div>
         <div className={styles.socials}>

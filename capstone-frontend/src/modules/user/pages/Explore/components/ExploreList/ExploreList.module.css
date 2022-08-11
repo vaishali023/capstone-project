@@ -1,5 +1,5 @@
 .container {
-  padding: 14rem 1.6rem;
+  /* padding: 14rem 1.6rem; */
   color: #333;
 }
 
@@ -13,13 +13,46 @@
 .wrapper > h1 {
   font-size: 4rem;
   font-weight: 400;
+  margin-bottom: 40px;
 }
-
-.exploreList {
+.heading{
+  margin-bottom: 40px;
+}
+/* .exploreList {
   padding: 10rem 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   width: 100%;
   gap: 4rem;
+} */
+.explorelogo img{
+  width: 100%;
+  height: 350px;
+  margin-bottom: 40px;
 }
+.flexcontainer{
+  display: flex;
+  padding-bottom: 50px;
+  width: 100%;
+  gap: 2em;
+  font-size: 1.5em;
+}
+
+.flexchild{
+  flex: 1;
+  width: 50%;
+}
+
+.flexsecondchild{
+  width: 50%;
+}
+
+.flexcontainer img{
+  width: 100%;
+  height: 400px;
+}
+/* 
+.flexcontainer h3{
+  margin-top: 20px;
+} */

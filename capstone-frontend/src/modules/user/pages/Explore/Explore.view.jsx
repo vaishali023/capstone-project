@@ -7,7 +7,7 @@ import ExploreList from './components/ExploreList/ExploreList';
 export default function ExploreView() {
   return (
     <Layout>
-      <Hero img="/img/jumbo.jpg" location="Jumbo Jungle"/>
+      <Hero img="/img/ExploreHero.jpg" centerText="Homepage" location="Place"/>
       <ExploreList />
     </Layout>
   );
