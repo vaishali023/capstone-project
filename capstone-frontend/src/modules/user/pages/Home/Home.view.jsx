@@ -8,6 +8,7 @@ import PopularPlaces from './components/PopularPlaces/PopularPlaces';
 import PhotoGallery from './components/PhotoGallery/PhotoGallery';
 
 export default function HomePageView() {
+
   const [blogList, setBlogList] = React.useState([]);
 
   React.useEffect(() => {
@@ -16,13 +17,14 @@ export default function HomePageView() {
 
   async function getBlogItems() {
     try {
-      const response = await fetch(`${API_URL}/blogs`);
+      const response = await fetch(`${API_URL}/blogs/latest`);
       const data = await response.json();
       setBlogList(data.blogs);
     } catch (error) {
       console.log({ error });
     }
   }
+
   return (
     <Layout>
       <Hero img="/img/heroImage.jpg" />

@@ -16,7 +16,7 @@ export default function BlogDetailsView() {
   });
   React.useEffect(() => {
     getSingleBlog();
-  }, []);
+  }, [id]);
   async function getSingleBlog() {
     try {
       const data = await fetch(`${API_URL}/blogs/${id}`);

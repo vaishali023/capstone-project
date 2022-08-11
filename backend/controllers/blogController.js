@@ -10,7 +10,12 @@ exports.getAllBlogs = BigPromise(async (req, res, next) => {
   // const resultPerPage = 6;
 
   // let blogs = new WhereClause(Blog.find().populate('author'), req.query).search().filter();
-  let blogs = await Blog.find()
+
+  let blogs = new WhereClause(Blog.find().populate('author'), req.query).search().filter();
+  // let blogs = await Blog.find()
+  // blogs.pager(resultPerPage);
+  blogs = await blogs.base;
+
   // blogs.pager(resultPerPage);
   // blogs = await blogs.base;
 
