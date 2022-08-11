@@ -7,19 +7,31 @@ const WhereClause = require('../utils/whereClause');
 //User only controller
 
 exports.getAllBlogs = BigPromise(async (req, res, next) => {
-  const resultPerPage = 6;
+  // const resultPerPage = 6;
 
-  let blogs = new WhereClause(Blog.find().populate('author'), req.query).search().filter();
+  // let blogs = new WhereClause(Blog.find().populate('author'), req.query).search().filter();
+  let blogs = await Blog.find()
+  // blogs.pager(resultPerPage);
+  // blogs = await blogs.base;
 
-  blogs.pager(resultPerPage);
-  blogs = await blogs.base;
-
-  const blogsCount = blogs.length;
+  // const blogsCount = blogs.length;
 
   res.status(200).json({
     success: true,
     blogs,
-    totalBlogs: blogsCount,
+    // totalBlogs: blogsCount,
+  });
+});
+
+exports.getLatestBlogs = BigPromise(async (req, res, next) => {
+  const resultPerPage = 6;
+
+  let blogs = await Blog.find().sort({$natural: -1})
+  .limit(3);
+
+  res.status(200).json({
+    success: true,
+    blogs,
   });
 });
 
@@ -35,6 +47,8 @@ exports.getBlogById = BigPromise(async (req, res, next) => {
     blog,
   });
 });
+
+
 
 //Admin only controllers
 
@@ -113,5 +127,22 @@ exports.deleteBlogById = BigPromise(async (req, res, next) => {
   res.status(200).json({
     success: true,
     message: 'Blog is deleted',
+  });
+});
+
+
+exports.searchBlog = BigPromise(async (req, res, next) =>{
+
+  const result = await Blog.find({
+        location:{$regex:req.params.key}
+  })
+
+  if (!result) {
+    return next(new CustomError('No blog found for this location', 401));
+  }
+
+  res.status(200).json({
+    success: true,
+    result,
   });
 });
