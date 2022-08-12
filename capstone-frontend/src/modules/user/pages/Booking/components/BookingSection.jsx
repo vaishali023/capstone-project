@@ -25,6 +25,7 @@ export default function BookingSection() {
               <FaQuoteRight />
             </h1>
             <p>
+            With all the advancements in technology, online travel booking websites has proved to be a blessing for the modern world. You can book tickets, find the best place to stay and more.
             This page is both a checklist of things you need to book and a resource of our favourite travel providers.
             </p>
         </div>

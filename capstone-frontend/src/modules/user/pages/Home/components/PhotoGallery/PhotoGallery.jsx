@@ -17,7 +17,7 @@ export default function PhotoGallery() {
             </div>
             </div>
           </div>
-          <div className={styles.doodle}><img src="https://res.cloudinary.com/dkhvcn7i6/image/upload/v1660199519/Logo/Artboard_1_zl44ud.png"></img></div>
+          {/* <div className={styles.doodle}><img src="https://res.cloudinary.com/dkhvcn7i6/image/upload/v1660199519/Logo/Artboard_1_zl44ud.png"></img></div> */}
         </div>
     );
 }

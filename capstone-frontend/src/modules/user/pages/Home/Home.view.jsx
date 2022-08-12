@@ -28,7 +28,7 @@ export default function HomePageView() {
 
   return (
     <Layout>
-      <Hero img="/img/heroImage.jpg" centerText="Homepage" location="Parisian Bridge, Paris, France" />
+      <Hero img="/img/heroImage.jpg" centerText="Plan your Next Adventure" location="Parisian Bridge, Paris, France" />
       <EWV />
       <PopularPlaces />
       <LatestBlog data={blogList}/>

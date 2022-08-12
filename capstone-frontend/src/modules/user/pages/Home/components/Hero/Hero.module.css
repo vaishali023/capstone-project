@@ -24,11 +24,13 @@
     transform: translate(-50%, -50%);
     color:white;
     font-size: 40px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 2px 2px #010b13;
   
 }
 
  .locationtext{
-position: absolute;
+  position: absolute;
   bottom: 8px;
   right: 16px;
   transform: translate(-50%, -50%);

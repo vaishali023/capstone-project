@@ -7,7 +7,7 @@ import AboutSection from './components/AboutSection/AboutSection';
 export default function AboutView() {
   return (
     <Layout>
-       <Hero img="/img/maps.jpg" centerText="Homepage" location="Place"/>
+       <Hero img="/img/maps.jpg" centerText="We are a worker-owned travel company backed by our character, dependability, and dedication to serving our customers." location="About Us Page "/>
       <AboutSection />
     </Layout>
   );
