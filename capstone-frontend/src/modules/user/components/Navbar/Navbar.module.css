@@ -6,7 +6,7 @@
   justify-content: center;
   align-items: center;
   min-height: 74px;
-  padding: 16px 37px;
+  padding: 16px 34px;
   color: #fff;
   transition: color 0.2s ease-out;
   z-index: 99999999999;
@@ -18,6 +18,8 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  overflow: hidden;
+  
 }
 
 .container.active {
@@ -53,16 +55,19 @@
   gap: 16px;
   list-style: none;
   font-size: 1.6rem;
+  margin-bottom: 10px;
 }
 
 .menu li {
-  padding: 0 14px;
+  padding: 10px 14px;
   text-transform: uppercase;
   letter-spacing: 1.2px;
-  font-family: 'Bodoni Moda', serif;
+  /* font-family: 'Bodoni Moda', serif; */
+  font-family: 'Source Sans Pro', sans-serif;
   font-weight: 500;
   cursor: pointer;
-  font-size: 22px;
+  font-size: 20px;
+  margin-bottom: 20px;
 }
 
 .menu li a {
@@ -75,6 +80,9 @@
 .social {
   display: flex;
   gap: 12px;
+
+  margin-bottom: 10px;
+  padding-top: 22px;
 }
 
 .social svg {
@@ -83,8 +91,8 @@
 }
 .logo img{
   position: relative;
-  width: 260px;
-  height: 80px;
+  width: 240px;
+  height: 70px;
 }
 .hamburgermenu input{
   visibility: hidden;
