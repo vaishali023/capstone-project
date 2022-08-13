@@ -31,3 +31,9 @@
   color: rgb(108, 106, 106);
   letter-spacing: 1.2px;
 }
+@media (max-width: 600px){
+  .aboutWrapper{
+    flex-direction: column;
+  }
+}
+

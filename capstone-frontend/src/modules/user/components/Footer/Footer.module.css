@@ -1,15 +1,16 @@
 .container {
   padding: 1.6rem;
-  /* padding-bottom: 6.4rem; */
-  /* background-image: url("../../../../assets/wave.svg"); */
-  background-color: #003B73;
+  /* background-color: #003B73; */
   color: whitesmoke;
+  background-image: url("https://res.cloudinary.com/dkhvcn7i6/image/upload/v1660333768/Logo/footerDarker_cxsooa.jpg");
+  opacity: 90%;
 }
 
 .wrapper {
   composes: container from '../../../../styles/layout.module.css';
   display: flex;
   justify-content: space-between;
+ 
 }
 
 .brand {
@@ -51,7 +52,13 @@
   margin-top: 2rem;
   font-size: 1.6rem;
 }
+
+
+
 @media (max-width: 600px){
+  .container{
+    text-align: center;
+  }
   .wrapper{
     flex-direction: column;
     justify-content: center;
@@ -59,5 +66,17 @@
 
   .socialTitle{
     visibility: hidden;
+  }
+  .social{
+    justify-content: center;
+  }
+  .brand{
+    
+    width: 80%;
+    margin: auto;
+  }
+  
+  .logo{
+    text-align: center;
   }
 }

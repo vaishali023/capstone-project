@@ -17,8 +17,15 @@
 }
 
 .popularPlacesList {
-  padding: 10rem 0;
+  padding: 8rem 0;
   display: flex;
   justify-content: space-between;
   width: 100%;
 }
+@media (max-width: 600px){
+  .popularPlacesList{
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2em;
+  }
+  }

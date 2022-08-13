@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&family=Bigelow+Rules&family=Bodoni+Moda:opsz,wght@6..96,500&family=Catamaran:wght@400;500&family=Kanit:wght@300&family=Lato:wght@300&family=Maven+Pro&family=Mulish&family=Open+Sans:ital,wght@0,300;1,400&family=Poppins:wght@200;300&family=Roboto+Condensed:wght@300&family=Roboto:wght@300&family=Satisfy&family=Source+Sans+Pro&family=Work+Sans:wght@400;500&display=swap');
 .heroWrapper {
   position: relative;
   height: 100vh;
@@ -24,9 +25,9 @@
     transform: translate(-50%, -50%);
     color:white;
     font-size: 40px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    text-shadow: 2px 2px #010b13;
-  
+    font-family: 'Satisfy', cursive;
+    text-shadow: .1em .1em 0 rgb(22, 50, 65);
+   letter-spacing: 3px;
 }
 
  .locationtext{
@@ -41,4 +42,9 @@
 
 .heroWrapper:hover .locationtext{
   visibility: visible;
+}
+@media (max-width: 600px){
+  .centertext{
+    font-size: 3rem;
+  }
 }

@@ -3,13 +3,14 @@ import { AiOutlineInstagram, AiOutlineTwitter } from 'react-icons/ai';
 import { FaFacebookF } from 'react-icons/fa';
 
 import styles from './Footer.module.css';
+import classnames from 'classnames';
 
-import {ReactComponent as wave} from "../../../../assets/wave.svg";
 
 export default function Footer() {
   return (
     <div className={styles.container}>
       <div className={styles.wrapper}>
+    
         <div className={styles.brand}>
           <div className={styles.logo}>VAGARY</div>
           <div className={styles.brandDescription}>
@@ -29,6 +30,7 @@ export default function Footer() {
             <br /> All Rights Reserved
           </div>
         </div>
+     
       </div>
     </div>
   );

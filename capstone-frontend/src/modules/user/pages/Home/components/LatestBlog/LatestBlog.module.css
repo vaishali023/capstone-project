@@ -16,9 +16,16 @@
 }
 
 .latestBlogList {
-  padding: 10rem 0;
+  padding: 8rem 4rem;
   display: flex;
   justify-content: space-between;
   width: 100%;
   gap: 4rem;
+}
+
+@media (max-width: 600px){
+  .latestBlogList{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }

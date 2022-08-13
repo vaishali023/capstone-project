@@ -7,8 +7,8 @@ import {
 import { FaFacebookF } from 'react-icons/fa';
 import classnames from 'classnames';
 import { Link } from 'react-router-dom';
-import Search from '../Search/Search';
-
+import { useHistory } from 'react-router-dom';
+import { API_URL } from '../../../../utils/constants';
 import styles from './Navbar.module.css';
 
 export default function Navbar() {
@@ -27,6 +27,39 @@ export default function Navbar() {
       setActive(false);
     }
   }
+  const [result, setResult] = React.useState([]);
+    const [text, setText] = React.useState('');
+    const [selectedValue, setselectedValue] = React.useState('');
+    const history = useHistory();
+    var disable = document.getElementById("disable");
+    var inputtext = document.getElementById("inputtext");
+    const searchHandle = async (event) =>{
+        let key = event.target.value;
+        let result = await fetch(`${API_URL}/search/${key.charAt(0).toUpperCase() + key.slice(1)}`);
+        result = await result.json();
+        if(result){
+          setResult(result.result);
+        }
+       if(key === '') {
+         setResult([])
+       }
+       disable.style.display="block";
+       setText(event.target.value);
+      }
+    
+      const handleClick = (event, key) => {
+        // var selectBox = document.getElementById("selectBox");
+        
+        // var selectedValue = selectBox?.options[selectBox.selectedIndex]?.value;
+        // setselectedValue(`${key}`);
+        setTimeout(() => {
+          history.push(`/blog/${key}`)
+        }, 500);
+        var selectBox = document.getElementById("selectbox");
+        console.log(selectBox); 
+        disable.style.display="none";
+           }
+
   
   return (
     <div
@@ -64,7 +97,29 @@ export default function Navbar() {
         <a href="https://www.instagram.com/"><AiOutlineInstagram /></a>
           <a href="https://twitter.com/home"><AiOutlineTwitter /></a>
           <a href="https://www.facebook.com/"><FaFacebookF /></a>
-          <Search />
+          <div className={styles.searchbox}>
+
+
+          
+<button className={styles.btnsearch}>  <AiOutlineSearch/>
+</button> 
+  <input id="inputtext" type="text" className={styles.inputSearch} placeholder="Type to Search..."
+    onChange={searchHandle}
+  />
+  <div id="disable">
+  {result && result.map((suggestion,i) =>
+  <div id="selectbox" onClick={event => handleClick(event, suggestion._id)} key={i}>{suggestion.location}</div>
+  )}
+  </div>
+  {/* <select value={selectedValue} id='selectBox' onChange={changeFun} className={styles.suggestion} >
+    <option >{'Please select'}</option>
+      {result.map((item, index) => (
+      <>
+        <option value={item._id}>{item.location}</option>
+      </>
+       ))}
+  </select> */}
+</div> 
         </div>
       </div>
     </div>
