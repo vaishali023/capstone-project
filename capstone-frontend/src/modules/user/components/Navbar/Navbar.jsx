@@ -68,7 +68,7 @@ export default function Navbar() {
       }
     >
       <div className={styles.wrapper}>
-        <div className={styles.logo}><Link to='/'><img src="https://res.cloudinary.com/dkhvcn7i6/image/upload/v1659734964/Logo/logowhite_yczmpk.png" /></Link></div>
+        <div className={styles.logo}><Link to='/'><img src="https://res.cloudinary.com/dkhvcn7i6/image/upload/v1660358763/Logo/Vagary-white_pir3pp.png" /></Link></div>
         <div className={styles.menuContainer}>
           <div className={styles.hamburgermenu}>
           <input id="menutoggle" type="checkbox" />

@@ -12,7 +12,7 @@ export default function Footer() {
       <div className={styles.wrapper}>
     
         <div className={styles.brand}>
-          <div className={styles.logo}>VAGARY</div>
+          <div className={styles.logo}><img src="https://res.cloudinary.com/dkhvcn7i6/image/upload/v1660358763/Logo/Vagary-white_pir3pp.png" alt="Footer Logo"></img></div>
           <div className={styles.brandDescription}>
             The website ends here, but your journey to the beautiful destinations
              begins with Vagary. Explore with us.

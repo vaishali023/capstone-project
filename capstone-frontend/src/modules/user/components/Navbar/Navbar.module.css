@@ -29,7 +29,7 @@
   transition: all 0.2s ease-in;
 }
 .container.active img{
-  content: url("https://res.cloudinary.com/dkhvcn7i6/image/upload/v1659734973/Logo/Untitled-LOGO_hzxwrn.png");
+  content: url("https://res.cloudinary.com/dkhvcn7i6/image/upload/v1660358763/Logo/Vagary1_salhlw.png");
 }
 .container.active a{
   color: #0C0404;
@@ -62,7 +62,7 @@
   font-family: 'Bodoni Moda', serif;
   font-weight: 500;
   cursor: pointer;
-  font-size: 16px;
+  font-size: 22px;
 }
 
 .menu li a {
@@ -83,8 +83,8 @@
 }
 .logo img{
   position: relative;
-  width: 120px;
-  height: 50px;
+  width: 260px;
+  height: 80px;
 }
 .hamburgermenu input{
   visibility: hidden;
