@@ -1,0 +1,16 @@
+.alignImages{
+    display: flex;
+    flex-wrap: wrap;
+  justify-content: center;
+  padding: 40px calc((100% - (255px * 3)) / 2);
+
+}
+
+.column{
+    flex: 0 0 215px;
+}
+
+.imgsiz{
+    width: 200px;
+    height: 300px;
+}

@@ -5,9 +5,9 @@
   max-width: 36rem;
   border-radius: 8px;
   overflow: hidden;
-  -webkit-box-shadow: 3px 4px 7px 0px 	#A8A8A8;
-  -moz-box-shadow: 3px 4px 7px 0px 	#A8A8A8;
-  box-shadow: 3px 4px 7px 0px 	#A8A8A8;
+  -webkit-box-shadow: 3px 4px 7px 0px 	#c4c2c2;
+  -moz-box-shadow: 3px 4px 7px 0px 	#c4c2c2;
+  box-shadow: 3px 4px 7px 0px 	#c4c2c2;
   transition: all .3s ease-in-out;
 }
 .container:hover{

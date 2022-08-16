@@ -1,6 +1,7 @@
 import React from 'react';
 import { FaQuoteLeft, FaQuoteRight } from 'react-icons/fa';
-
+import Faqs from '../Faq/Faq.container';
+import Owners from '../Owners/Owners';
 import styles from './AboutSection.module.css';
 
 export default function AboutSection() {
@@ -45,6 +46,9 @@ export default function AboutSection() {
            
           </div>
         </div>
+
+        <Owners />
+        <Faqs />
       </div>
     </div>
   );

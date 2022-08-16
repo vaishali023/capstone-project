@@ -7,6 +7,7 @@ export default function BlogList() {
 
   const [blogList, setBlogList] = React.useState([]);
   const [visible, setVisible] = React.useState(3);
+  const [bloglength, setBloglength] = React.useState();
 
   React.useEffect(() => {
     getBlogItems()
@@ -17,7 +18,8 @@ export default function BlogList() {
       const response = await fetch(`${API_URL}/blogs`);
       const data = await response.json();
       setBlogList(data.blogs);
-      console.log(data);
+      setBloglength(data.blogs.length);
+      // console.log(data.blogs.length);
     } catch (error) {
       console.log({ error });
     }
@@ -25,6 +27,11 @@ export default function BlogList() {
 
   const loadMoreItems = () => {
     setVisible((preValue) => preValue + 3);
+    const buttonvisibility = document.getElementById("hidebutton");
+    console.log(visible);
+    if (visible+3 >= bloglength){
+      buttonvisibility.style.visibility="hidden";
+    }
   }
 
   return (
@@ -37,7 +44,7 @@ export default function BlogList() {
           ))}
         </div>
         <div className={styles.loadMore}>
-          <button onClick={loadMoreItems}>Load More</button>
+          <button onClick={loadMoreItems}  id="hidebutton">Load More</button>
         </div>
       </div>
     </div>
