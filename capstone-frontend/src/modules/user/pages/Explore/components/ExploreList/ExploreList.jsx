@@ -7,10 +7,10 @@ import Imagehover from '../ImageSlider/Imagehover';
 export default function ExploreList() {
   return (
     <div className={styles.container}>
-    <div className={styles.explorelogo}><img src="https://res.cloudinary.com/dkhvcn7i6/image/upload/v1660331457/Logo/pexels-eberhard-grossgasteiger-844297_fz0hag.png" alt="Explore Logo"></img></div>
+    {/* <div className={styles.explorelogo}><img src="https://res.cloudinary.com/dkhvcn7i6/image/upload/v1660331457/Logo/pexels-eberhard-grossgasteiger-844297_fz0hag.png" alt="Explore Logo"></img></div> */}
 
       <div className={styles.wrapper}>
-        {/* <h1>Explore</h1> */}
+        <h1 className={styles.animatecharacter}>Explore with us</h1>
         
         <div className={styles.exploreList}>
           <div className={styles.flexcontainer}>
