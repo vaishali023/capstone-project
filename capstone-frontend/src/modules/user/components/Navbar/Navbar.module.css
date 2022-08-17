@@ -129,7 +129,7 @@
   width: 50px;
   border-style: none;
   padding: 10px;
-  font-size: 18px;
+  font-size: 30px;
   letter-spacing: 2px;
   outline: none;
   background-color: transparent;
@@ -148,13 +148,12 @@
 .container.active .inputSearch::placeholder{
   color: black;
 }
-
 .btnsearch{
   margin-top: -10px;
   width: 50px;
   height: 50px;
   border-style: none;
-  font-size: 20px;
+  font-size: 30px;
   font-weight: bold;
   outline: none;
   cursor: pointer;
@@ -170,8 +169,13 @@
   color: #5A90F7;
 }
 
+.suggestiontext{
+  font-size: 16px;
+}
+
 .btnsearch:focus ~ .inputSearch{
   width: 300px;
+  
   border-radius: 0px;
   background-color: transparent;
   border-bottom:1px solid rgba(255,255,255,.5);

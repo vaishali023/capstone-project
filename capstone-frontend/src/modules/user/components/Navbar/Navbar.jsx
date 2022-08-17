@@ -108,7 +108,7 @@ export default function Navbar() {
   />
   <div id="disable">
   {result && result.map((suggestion,i) =>
-  <div id="selectbox" onClick={event => handleClick(event, suggestion._id)} key={i}>{suggestion.location}</div>
+  <div id="selectbox" className={styles.suggestiontext} onClick={event => handleClick(event, suggestion._id)} key={i}>{suggestion.location} </div>
   )}
   </div>
   {/* <select value={selectedValue} id='selectBox' onChange={changeFun} className={styles.suggestion} >

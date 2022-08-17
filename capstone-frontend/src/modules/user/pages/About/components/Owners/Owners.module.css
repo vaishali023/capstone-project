@@ -1,16 +1,40 @@
 .alignImages{
-    display: flex;
+    /* display: flex;
     flex-wrap: wrap;
   justify-content: center;
   padding: 40px calc((100% - (255px * 3)) / 2);
+  gap: 5em;
+  width:100%; 
 
+  */
+
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 100%;
+  gap:10em;
+
+}
+
+.alignImages2{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15em;
 }
 
 .column{
-    flex: 0 0 215px;
 }
 
 .imgsiz{
-    width: 200px;
-    height: 300px;
+    width: 400px;
+    height: 500px;
+}
+.adminTravel {
+    font-size: 4rem;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 0px;
 }
