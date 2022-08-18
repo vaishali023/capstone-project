@@ -38,7 +38,7 @@ img:hover + .carddesc{
     visibility: visible;
 }
 .carddesc p{
-  font-size: 2rem;
+  font-size: 20px;
  /* letter-spacing: 2px; */
 
   text-align: center;
