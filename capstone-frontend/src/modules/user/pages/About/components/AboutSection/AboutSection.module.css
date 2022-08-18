@@ -10,9 +10,22 @@
   align-items: center;
 }
 
+.owners{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding-bottom: 20px;
+  background-color: whitesmoke;
+}
+.faq{
+  
+  width: 80%;
+  margin: auto;
+}
+
 .aboutWrapper {
   display: flex;
   gap: 4rem;
+  /* margin-bottom: 50px; */
 }
 .aboutWrapper img{
   width: 100%;

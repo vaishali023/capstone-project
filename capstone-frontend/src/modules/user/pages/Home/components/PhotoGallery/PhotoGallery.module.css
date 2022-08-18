@@ -1,5 +1,5 @@
 .container {
-  /* padding: 14rem 1.6rem; */
+  padding: 12rem 1.6rem;
   background-color: whitesmoke;
 }
 
@@ -16,7 +16,7 @@
 .headingGrid{
   font-size: 4rem;
   font-weight: 400;
-margin-top: 20px;
+margin-bottom: 30px;
 }
 .gallery {
   display: grid;

@@ -15,7 +15,11 @@
   gap:10em;
 
 }
-
+.container{
+  align-items: center;
+    width: 80%;
+    margin: auto;
+}
 .alignImages2{
     margin-top: 30px;
     display: flex;
@@ -24,7 +28,11 @@
     gap: 15em;
 }
 
-.column{
+.column img{
+    transition: all .3s ease-in-out; 
+}
+.column img:hover{
+  transform: scale(.9);
 }
 
 .imgsiz{
@@ -35,6 +43,14 @@
     font-size: 4rem;
     font-weight: 400;
     text-align: center;
-    margin-top: 60px;
-    margin-bottom: 0px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.adminText {
+    font-size: 1.8rem;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  align-items: center;
+  text-align: justify;
 }

@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import Faq from "react-faq-component";
 
 const data = {
-    title: "FAQ (How it works)",
+    title: "Frequently Asked Questions",
     rows: [
         {
             title: "Lorem ipsum dolor sit amet,",
@@ -34,8 +34,8 @@ const data = {
 
 const styles = {
     // bgColor: 'white',
-    titleTextColor: "blue",
-    rowTitleColor: "blue",
+    titleTextColor: "dark charcoal",
+    rowTitleColor: "dark charcoal",
     // rowContentColor: 'grey',
     // arrowColor: "red",
 };

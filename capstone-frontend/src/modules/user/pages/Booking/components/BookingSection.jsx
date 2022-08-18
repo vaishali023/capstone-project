@@ -95,13 +95,29 @@ export default function BookingSection() {
         <div className={styles.staywrapper}>
         <div className={styles.aboutCards}>
          <h1>6- Activities</h1>
-         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
-              obcaecati suscipit distinctio autem? Animi aliquid doloribus iure
-              atque et vero obcaecati! Eum explicabo delectus earum atque
-              molestiae ipsam, cupiditate quos.</p>
+         <p>Activities are the next item you might want to plan ahead for. While exploring a new city on foot and letting chance lead you might be wonderful, 
+         there are times when you want to be more prepared. To help you spend more time gathering unforgettable experiences and less time searching for them,
+          our itineraries cover the order that we believe you should see things.
+
+          This enables you to avoid lines by making reservations in advance for popular attractions.
+           Get Your Guide, a dependable partner for attractions, offers a wide variety of activities,
+            a user-friendly design, and client testimonials. Additionally, they will mail tickets directly to your smartphone.</p>
          
               <a href="https://www.getyourguide.com/" target="_blank" rel="noreferrer">
           <button>Activities</button></a>
+        </div>
+        </div>
+
+        <div className={styles.staywrapper}>
+        <div className={styles.aboutCards}>
+         <h1>7- Insurance</h1>
+         <p>One of the first things you should think about purchasing when going is travel insurance. 
+         It is a form of financial insurance against unanticipated occurrences like unexpected medical expenses, 
+         a cancelled flight, or assets theft. Although travellers can exercise the greatest caution, there is always a chance of the unforeseen, thus it is essential to be as prepared as possible for this. 
+         You can unwind and travel without stress.</p>
+         
+              <a href="https://www.worldnomads.com//" target="_blank" rel="noreferrer">
+          <button>worldnomads</button></a>
         </div>
         </div>
     </div>

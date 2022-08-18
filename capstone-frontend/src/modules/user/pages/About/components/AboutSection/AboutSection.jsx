@@ -46,8 +46,12 @@ export default function AboutSection() {
            
           </div>
         </div>
-
+        
+      </div>
+      <div className={styles.owners}>
         <Owners />
+      </div>
+      <div className={styles.faq}>
         <Faqs />
       </div>
     </div>
