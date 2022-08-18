@@ -9,7 +9,7 @@ export default function AboutSection() {
     <div className={styles.container}>
       <div className={styles.wrapper}>
         <div className={styles.aboutWrapper}>
-          <img src='https://res.cloudinary.com/dkhvcn7i6/image/upload/v1659738892/users/aboutUs_yqhcwz.jpg' alt='company' />
+          <img src='https://res.cloudinary.com/dkhvcn7i6/image/upload/v1660858651/users/travelIsGood_ijh4ed.jpg' alt='company' />
           <div className={styles.aboutText}>
             <p>
             VAGARY travells is a specialist travel agency and tour operator in Canada.
