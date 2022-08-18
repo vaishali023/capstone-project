@@ -23,7 +23,7 @@ export default function BlogView() {
   // }
   return (
     <Layout>
-      <Hero img="/img/train.jpg" centerText="To plan your vacation simply, we write travel blogs on the most stunning locations on earth." location="Glenfinnan Viaduct, Glenfinnan, United Kingdom"/>
+      <Hero img="/img/train.jpg" centerText="To Plan Your Vacation Simply, We Write Travel Blogs On The Most Stunning Locations On Earth." location="Glenfinnan Viaduct, Glenfinnan, United Kingdom"/>
       <BlogList  />
     </Layout>
   );

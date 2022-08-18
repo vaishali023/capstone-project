@@ -6,6 +6,8 @@ import Hero from './components/Hero/Hero';
 import LatestBlog from './components/LatestBlog/LatestBlog';
 import PopularPlaces from './components/PopularPlaces/PopularPlaces';
 import PhotoGallery from './components/PhotoGallery/PhotoGallery';
+import SummerCards from './components/SummerCards/SummerCards';
+import VideoHome from './components/VideoHome/VideoHome';
 
 
 export default function HomePageView() {
@@ -28,11 +30,13 @@ export default function HomePageView() {
 
   return (
     <Layout>
-      <Hero img="/img/heroImage.jpg" centerText="Plan your Next Adventure" location="Parisian Bridge, Paris, France" />
+      {/* <Hero img="/img/heroImage.jpg" centerText="Plan your Next Adventure" location="Parisian Bridge, Paris, France" /> */}
+      <VideoHome centerText="Plan Your Next Adventure" location="Parisian Bridge, Paris, France" />
       <EWV />
       <PopularPlaces />
       <LatestBlog data={blogList}/>
       <PhotoGallery />
+      <SummerCards />
     </Layout>
   );
 }

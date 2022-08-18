@@ -4,30 +4,26 @@ import { useEffect, useState } from "react";
 import Faq from "react-faq-component";
 
 const data = {
-    title: "Frequently Asked Questions",
+    title: "Frequently asked questions",
     rows: [
         {
-            title: "Lorem ipsum dolor sit amet,",
-            content: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed tempor sem. Aenean vel turpis feugiat,
-              ultricies metus at, consequat velit. Curabitur est nibh, varius in tellus nec, mattis pulvinar metus.
-              In maximus cursus lorem, nec laoreet velit eleifend vel. Ut aliquet mauris tortor, sed egestas libero interdum vitae.
-              Fusce sed commodo purus, at tempus turpis.`,
+            title: "What is Vagary?",
+            content: `We roam all over the globe to get the experience of that place.`,
         },
         {
-            title: "Nunc maximus, magna at ultricies elementum",
+            title: "How can I post my blog?",
             content:
-                "Nunc maximus, magna at ultricies elementum, risus turpis vulputate quam, vitae convallis ex tortor sed dolor.",
+                "Only the admins have rights to post the blogs so that those are the legit.",
+                
         },
         {
-            title: "Curabitur laoreet, mauris vel blandit fringilla",
-            content: `Curabitur laoreet, mauris vel blandit fringilla, leo elit rhoncus nunc, ac sagittis leo elit vel lorem.
-            Fusce tempor lacus ut libero posuere viverra. Nunc velit dolor, tincidunt at varius vel, laoreet vel quam.
-            Sed dolor urna, lobortis in arcu auctor, tincidunt mattis ante. Vivamus venenatis ultricies nibh in volutpat.
-            Cras eu metus quis leo vestibulum feugiat nec sagittis lacus.Mauris vulputate arcu sed massa euismod dignissim. `,
+            title: "What travel guide would you recommend for my travel plans?",
+            content: `I am an unabashed travel guide junkie. Buy them from the places as you can't afford and probably won't be visiting in the next five years.If you want to visit cities like Las Vegas, Amsterdam, Dublin, or  just  do a little  research, check out Dorring Kindersley's Top 10 I like books. For long trips (and wanting to splurge), I trust the knowledge of Rick Steves, Lonely Planet, or Frommer's. If you want to skip the weight of books, ebooks and apps are the best alternatives.
+            `,
         },
         {
-            title: "What is the package version",
-            content: <p>current version is 1.2.1</p>,
+            title: "I want to start a blog. What host should I use?",
+            content: "There are lots of host available on the internet to host any website. Just look for it and see which fits the best with you. I used diff host for storing my images, database and the actual website.",
         },
     ],
 };

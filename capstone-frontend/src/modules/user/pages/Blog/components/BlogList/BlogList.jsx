@@ -37,7 +37,7 @@ export default function BlogList() {
   return (
     <div className={styles.container}>
       <div className={styles.wrapper}>
-        <h1>Blog</h1>
+        <h1>Blogs</h1>
         <div className={styles.blogList}>
           {blogList.slice(0,visible).map(({ title, short_desc, image, author, _id }) => (
             <BlogCard id={_id} title={title} short_desc={short_desc} img={image.secure_url} authorName={author.name} />
