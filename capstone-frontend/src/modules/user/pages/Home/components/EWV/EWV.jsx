@@ -10,22 +10,19 @@ export default function EWV() {
         <h2 className={styles.secondHeading}>A travel blog</h2>
         <div className={styles.storyWrapper}>
           <div className={styles.story}>
-            It’s a big wide world out there. A world of cultural charms and
-            natural wonders; of mega-cities and remote outposts; of paths to
-            cross and lessons to learn; of limitless kindness and harsh
-            realities.
+          It’s a big wide world out there. A world of cultural charms and natural wonders; mega-cities and remote outposts;
+           paths to cross and lessons to learn;
+           limitless kindness and harsh realities.
           </div>
           <div className={styles.story}>
-            We travel to enquire, to hear stories and to be awestruck by
-            incredible scenery. To witness the ingenuity and defiance of
-            individuals and the remarkable output of their cooperation. To be
-            humbled by the history of yesterday, informed about the politics of
-            today and excited by the possibilities of tomorrow.
+          We travel to enquire, hear stories, and be awestruck by incredible scenery.
+           To witness the ingenuity and defiance of individuals and the remarkable output of their cooperation. 
+           To be humbled by the history of yesterday, 
+          informed about the politics of today, and excited by the possibilities of tomorrow.
           </div>
           <div className={styles.story}>
-            We travel to have fun. The moments that moved us, the characters we
-            encountered and the stage upon which it is all set. It’s a big wide
-            world out there, come see it with us.
+          We travel to have fun. The moments that moved us, the characters we encountered, and the stage upon which it is all set. 
+          It’s a big wide world out there, come see it with us.
           </div>
         </div>
       </div>
