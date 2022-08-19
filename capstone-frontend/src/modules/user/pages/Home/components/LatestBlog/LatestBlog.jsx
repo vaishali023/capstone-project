@@ -27,7 +27,7 @@ export default function LatestBlog({data}) {
   return (
     <div className={styles.container}>
       <div className={styles.wrapper}>
-        <h1>Our latest reads</h1>
+        <h2 className={styles.heading}>Our latest reads</h2>
         <div className={styles.latestBlogList}>
         {data.map(({ title, short_desc, image, author, _id }) => (
             <BlogCard id={_id} title={title} short_desc={short_desc} img={image.secure_url} authorName={author.name} />

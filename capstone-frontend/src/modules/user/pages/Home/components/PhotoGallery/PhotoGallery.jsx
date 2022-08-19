@@ -6,7 +6,7 @@ export default function PhotoGallery() {
     return (
         <div className={styles.container}>
           <div className={styles.wrapper}>
-            <h1 className={styles.headingGrid}>Photo Gallery</h1>
+            <h2 className={styles.headingGrid}>Photo Gallery</h2>
             <div className={styles.containerimg}>
             <div className={styles.gallery}>
             <div className={classnames(styles.imggrid1, styles.singlecolumn) } ><img className={styles.galleryimg} src="img/gridimg1.jpg" alt=""/><p className={styles.gridText}>Wadi Musa, Ma'an Governorate, Jordan</p></div>

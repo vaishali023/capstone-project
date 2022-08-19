@@ -11,16 +11,18 @@
   align-items: center;
 }
 
-.wrapper > h1 {
+.exploreheading {
   font-size: 4rem;
   font-weight: 400;
-  padding: 2rem 0;
 }
-
-.wrapper > h2 {
+.secondHeading{
   font-size: 20px;
   font-weight: 500;
 }
+/* .wrapper > .h2 {
+  font-size: 20px;
+  font-weight: 500;
+} */
 
 .storyWrapper {
   display: flex;

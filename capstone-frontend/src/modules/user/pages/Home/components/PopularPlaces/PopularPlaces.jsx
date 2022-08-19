@@ -7,7 +7,7 @@ export default function PopularPlaces() {
   return (
     <div className={styles.container}>
       <div className={styles.wrapper}>
-        <h1>Explore popular places</h1>
+        <h2 className={styles.heading}>Explore popular places</h2>
         <div className={styles.popularPlacesList}>
           <CityCard
             name='Madrid'

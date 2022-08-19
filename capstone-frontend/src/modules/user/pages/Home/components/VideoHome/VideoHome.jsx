@@ -9,7 +9,7 @@ export default function VideoHome({centerText,location}) {
       <video id="background-video" loop autoPlay muted>
         <source src="img/PexelsHomePage.mp4" type="video/mp4" />
 </video>
-        <p className={styles.centertext}>{centerText}</p>
+        <h1 className={styles.centertext}>{centerText}</h1>
         <p className={styles.locationtext}>{location}</p>
       </div>
     </div>
