@@ -6,7 +6,7 @@ export default function EWV() {
   return (
     <div className={styles.container}>
       <div className={styles.wrapper}>
-        <h2 classname={styles.exploreheading}>Explore with Us</h2>
+        <h2 className={styles.exploreheading}>Explore with Us</h2>
         <h2 className={styles.secondHeading}>A travel blog</h2>
         <div className={styles.storyWrapper}>
           <div className={styles.story}>

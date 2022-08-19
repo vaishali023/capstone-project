@@ -27,16 +27,17 @@
     font-family: 'Satisfy', cursive;
     /* text-shadow: .1em .1em 0 rgb(22, 50, 65); */
     letter-spacing: 2px;
-  text-align: center;
+    text-align: center;
+   
 }
 
 .headingtext{
   font-family: 'Satisfy', cursive;
-    
+  font-weight: normal;
   font-size: 60px;
 }
 .subheading{
- 
+  font-weight: normal;
     font-size: 40px;
  }
 

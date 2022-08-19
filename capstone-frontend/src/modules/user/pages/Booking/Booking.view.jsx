@@ -7,7 +7,7 @@ import BookingSection from './components/BookingSection';
 export default function BookingView() {
   return (
     <Layout>
-    <Hero img="/img/hotelbooking.jpg" centerText="Book Your Next Travel With Us" location="Costa Rica, Alajuela"/>
+    <Hero img="/img/hotelbooking.jpg" centerText="Book Your Next Experience With Us" location="Costa Rica, Alajuela"/>
       <BookingSection />
     </Layout>
   );
