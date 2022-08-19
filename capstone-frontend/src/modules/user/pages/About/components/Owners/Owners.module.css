@@ -54,3 +54,9 @@
   align-items: center;
   text-align: justify;
 }
+@media (max-width: 600px){
+  .alignImages{
+    display: flex;
+    flex-direction: column;
+  }
+}
