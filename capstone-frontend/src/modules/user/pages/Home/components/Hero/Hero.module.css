@@ -58,4 +58,10 @@
   .centertext{
     font-size: 3rem;
   }
+  .headingtext{
+    font-size: 40px;
+  }
+  .subheading{
+    font-size: 30px;
+  }
 }
